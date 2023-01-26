@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 header{
     text-align: center;
     font-family: "Times New Roman";
@@ -8,29 +6,26 @@ header{
     color: #fff;
     text-transform: uppercase;
     border-bottom: 4px solid gray;
+    width: 75%;
+    margin: auto;
+    flex:auto;
 }
-.paintings{
+.container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    max-width: 1400px;
+    max-width: 1000px;
     gap: 16px;
-    margin: 0 auto;
-    background-image: url(https://img.freepik.com/free-vector/diagonal-motion-lines-white-background_1017-33198.jpg?w=1060&t=st=1674383142~exp=1674383742~hmac=da7395f9d7dfe4a8270dfc615b42b25c71610c7c4fffc2e08f7d0955dc13e347);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 20px 8px;
+    height: 250px;
     
 }
-.paintings img{
+.container>img{
     width: 100%;
     max-width: 300px;
-    height: 280px;
+    height: 100%;
     border-radius: 15px;
     object-fit: cover;
+    flex: 1 1 250px;
 }
 .paintings::after{
     content: "";
