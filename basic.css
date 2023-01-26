@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    background-image: url(https://img.freepik.com/free-vector/diagonal-motion-lines-white-background_1017-33198.jpg?w=1060&t=st=1674383142~exp=1674383742~hmac=da7395f9d7dfe4a8270dfc615b42b25c71610c7c4fffc2e08f7d0955dc13e347);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    max-width: 1000px;
+    padding: 20px 8px;
+    height: 280px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
